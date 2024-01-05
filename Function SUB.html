@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function in JavaScript</title>
+</head>
+<h1>
+    To subtract values in JavaScript
+</h1>
+<script>
+    function sub(){
+        var a,b,c;
+        a=Number(document.getElementById("one").value)
+        b=Number(document.getElementById("two").value)
+        c=a-b
+        document.getElementById("ans").value=c
+    }
+</script>
+<body style="color: blueviolet;
+background-color: aqua;">
+<h2>Subtraction of two numbers in JavaScript</h2>
+<br>
+Enter Number one:<input id="one">
+<br>
+Enter Number two:<input id="two">
+<br>
+<button onclick="sub()">GET</button>
+<br>
+<br>
+The Answer is:<input id="ans">
+
+
+    
+</body>
+</html>

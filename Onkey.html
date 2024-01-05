@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onkey in Javascript</title>
+    <style>
+        h1{
+            color: brown;
+        }
+        h2{
+            color: rgb(0, 100, 87);
+        }
+        body{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Events in JavaScript
+    </h1>
+    <h2>
+        Onkey events in Javascript
+    </h2>
+    <input type="text" id="input"  onkeydown="keydown()"/>
+   <script>
+        function keydown(){
+            document.getElementById("input").style.background='green'
+            alert('You have Pressed a key')
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,19 @@
+    body{
+    background-color: rgb(144, 43, 240);
+}
+table,th,td{
+    border: 5px;
+    border-radius: 7px;
+    text-align: center;
+    font-style: italic;
+}
+th,td{
+    background-color: rgb(236, 202, 7);
+    box-sizing: content-box;
+}
+th{
+    background-color: rgb(189, 26, 26);
+}
+td:nth-child(odd){
+    background-color: aqua;
+}

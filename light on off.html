@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIGHT ON OFF</title>
+</head>
+<style>
+    h1{
+        color: purple;
+
+    }
+    body{
+        background-color: aqua;
+        color: purple;
+        font-weight: 700;
+    }
+    button{
+        background-color: purple;
+        color: white;
+    }
+</style>
+<body>
+    <h1>Light on off in JavaScript</h1>
+    <p>JavaScript changes the value of the source attribute of an image</p>
+    <P> Using function with conditions</P>
+    <script>
+        function light (sw) {
+            var pic;
+            if (sw==0){
+                pic = "l off.png";
+            }
+            else {
+                pic="l on.png";
+            }
+            document.getElementById("img").src=pic;
+        }
+    </script>
+    <img id="img" src="l on.png" width="300" height="300">
+    <p>
+        <button type="button" onclick="light(1)">Light On</button>
+        <button type="button" onclick="light(0)">Light OFF</button>
+    </p>
+    
+</body>
+</html>

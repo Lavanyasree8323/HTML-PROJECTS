@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Passcheck in JavaScript</title>
+
+        <script type="text/JavaScript">
+          function matchpass(){
+           var firstpassword=document.f1.password.value;
+           var secondpassword=document.f1.password2.value;
+                if(firstpassword==secondpassword){
+                    return true;
+                }
+                else{
+                    alert("Password must be same!");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <from name="f1" action="https://www.w3schools.com/js/" onsubmit()="return matchpass()">
+        password:<input type="password" name="password"/>
+        <br>
+        <br>
+        Re-enter password:<input type="password" name="password2"/>
+        <br>
+        <br>
+        <input type="submit">
+        </from>
+        
+    </body>
+</html>

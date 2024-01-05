@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color: red;
+    background-color: blanchedalmond;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+input{
+    margin-bottom: 10px;
+}
+button[type="submit"]{
+    margin-top: 10px;
+    background-color: rgb(13, 123, 143);
+    color: black;
+}

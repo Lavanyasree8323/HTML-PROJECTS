@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerHTML</title>
+</head>
+<body>
+    <style>
+        h1{
+            background-color: rgb(221, 126, 184);
+            color: red;
+        }
+        #getit{
+            background-color: chartreuse;
+            color: blue;
+        }
+        body{
+            background-color: aqua;
+        }
+    </style>
+    <h1>
+        JavaScript DOM InnerHTML
+    </h1>
+    <P>
+        Displayed by document.body
+    </P>
+    <p id="getit"></p>
+    <script>
+        document.getElementById("getit").innerHTML=document.body.innerHTML;
+    </script>
+    
+</body>
+</html>

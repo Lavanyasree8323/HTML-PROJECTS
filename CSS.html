@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STYLE LAYER</title>
+   
+    <style>
+        h2{
+            background-color: hwb(133 10% 15%);
+            color: rgb(179, 32, 130);
+            font-style:oblique;
+            font-size: xx-large;
+        }
+        h3{
+            color: rgb(230, 16, 16);
+            font-size: x-large;
+            font-style: inherit;
+        }
+    </style>
+</head>
+<body style="background-color:aqua">
+    <h2> Anonymos Application</h2>
+    <br>
+    <form>
+        <lable>Enter your I'd:</lable>
+        <input type="text"> 
+        <br>
+        <br>
+        <lable>Enter your password:</lable>
+        <input type="password" name="pass">
+        <br>
+        <br>
+        <h3>Course Details</h3>
+        
+            <lable>Mode of Class</lable>
+            <br>
+            <input type="radio" name="class">Online<br>
+            <input type="radio" name="class">Ofline<br>
+            <br>
+            <lable> Select your Timing Preference</lable><br>
+            <input type="radio" name="Timing">10-12<br>
+            <input type="radio" name="Timing">01-03<br>
+            <input type="radio" name="Timing">03-05<br>
+            <input type="radio" name="Timing">05-07<br>
+            <br>
+            <lable>Select your course:</lable> 
+            <br>
+            <select>   
+            <option value="courses">select your course</option>
+            <option value="Python">Python</option>
+            <option value="MS Office">MS Office</option>
+            <option value="Data structure">Data structure</option>
+            <option value="Tally">Tally</option>
+            <option value="AI"> Artifical Intelligence</option>
+        </select>
+        <br>
+        <h3>Personal Details</h3>
+        <lable>Enter your name:</lable>
+        <input type="text">
+        <br>
+        <br>
+        <lable>Enter your Phone No:</lable>
+        <input type="text" name="Phone" size="10">
+        <br>
+        <br>
+        <lable>Enter your mail ID:</lable>
+        <input type="text" name="email">
+        <br>
+        <br>
+        <lable>Enter your Address:</lable>
+        <input textarea cols="27" rows="5">
+        <br>
+        <br>
+        <label>Enter your DOB:</label>
+        <input type="date">
+        <br>
+        <br>
+        <label>Gender:</label>
+        <select>
+        <option value="Female">Female</option><br>
+        <option value="Male">Male</option><br>
+        <option value="Others">Others</option><br>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+       
+    </form>
+    
+</body>
+</html>
